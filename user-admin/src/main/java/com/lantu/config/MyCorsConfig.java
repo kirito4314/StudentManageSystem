@@ -14,6 +14,7 @@ public class MyCorsConfig {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.addAllowedOrigin("http://localhost:8090");
         configuration.addAllowedOrigin("http://192.168.98.177:8090");
+        configuration.addAllowedOrigin("http://127.0.0.1:8090/");
         configuration.setAllowCredentials(true);
         configuration.addAllowedMethod("*");
         configuration.addAllowedHeader("*");
